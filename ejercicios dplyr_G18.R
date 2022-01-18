@@ -7,7 +7,7 @@ nycflights13::flights
 flights
 View(flights)
 
-#9.1
+#9.1 Parte 1:Dplyr - filter
 #1.Encuentra todos los vuelos que:
 #A.tuvieron un retraso de llegada de dos o más horas:
 v_retraso <- filter(flights, arr_delay >= 120 )
